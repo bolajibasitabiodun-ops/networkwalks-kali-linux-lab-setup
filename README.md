@@ -33,6 +33,8 @@ I then imported the virtual machine into Oracle VirtualBox and attempted to star
 
 The initial setup provided an opportunity to understand how virtual machines rely on hardware virtualization support.
 
+![Kali Linux installed](./kalilinuxinstalled.jpg)
+
 ## 5. Troubleshooting Hardware Virtualization
 
 The problem
@@ -70,7 +72,11 @@ Network configuration notes
 
 - VirtualBox network mode: NAT Network
 - IP address used during configuration: "10.0.0.2/24"
+- DNS server: 10.0.0.1
 - Internet access: Successfully verified by opening a website inside Kali Linux
+
+
+![Kali Linux internet connectivity](./kalilinuxnetconfig.jpg)
 
 
 
